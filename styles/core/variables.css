@@ -1,0 +1,12 @@
+:root {
+	--bg-color-main: #fff;
+	--bg-color-secondary: #f6f6f6;
+
+	--color-gray: #828282;
+	--color-black: #070707;
+
+	--container-width: 970px;
+	--container-padding-x: 10px;
+
+	--transition-duration: 0.2s;
+}
