@@ -1,0 +1,30 @@
+.history__inner {
+	text-align: center;
+	margin-block: 64px 70px;
+}
+
+.history__title {
+	margin-bottom: 72px;
+}
+
+.history__picture {
+	margin: 0;
+}
+
+.history__picture-img {
+	margin-bottom: 30px;
+}
+
+@media (max-width: 480px) {
+	.history__inner {
+		margin-block: 50px 80px;
+	}
+
+	.history__title {
+		margin-bottom: 60px;
+	}
+
+	.history__picture-img {
+		height: 480px;
+	}
+}

@@ -43,6 +43,10 @@ p {
 	margin: 0;
 }
 
+h2 {
+	font-size: 34px;
+}
+
 .container {
 	max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
 	padding-inline: var(--container-padding-x);
@@ -50,6 +54,10 @@ p {
 }
 
 @media (max-width: 480px) {
+	body {
+		font-size: 14px;
+	}
+
 	.container {
 		--container-padding-x: 30px;
 
