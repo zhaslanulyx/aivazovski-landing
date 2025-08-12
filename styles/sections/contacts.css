@@ -13,6 +13,12 @@
 	background-color: var(--color-black);
 	padding: 6px 12px;
 	border-radius: 22px;
+
+	transition-duration: var(--transition-duration);
+}
+
+.contacts__link:hover {
+	background-color: var(--color-gray);
 }
 
 .socials {
@@ -27,6 +33,12 @@
 	width: 65px;
 	height: 65px;
 	fill: var(--color-black);
+
+	transition-duration: var(--transition-duration);
+}
+
+.socials__icon:hover {
+	fill: var(--color-gray);
 }
 
 .contacts__copyright {
