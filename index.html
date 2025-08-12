@@ -13,26 +13,65 @@
 				<nav class="menu">
 					<ul class="menu__list">
 						<li class="menu__item">
-							<a href="#" class="menu__link">Home</a>
+							<a href="#home" class="menu__link">Home</a>
 						</li>
 						<li class="menu__item">
-							<a href="#" class="menu__link">About</a>
+							<a href="#about" class="menu__link">About</a>
 						</li>
 						<li class="menu__item">
-							<a href="#" class="menu__link">History</a>
+							<a href="#history" class="menu__link">History</a>
 						</li>
 						<li class="menu__item">
-							<a href="#" class="menu__link">Portfolio</a>
+							<a href="#portfolio" class="menu__link">Portfolio</a>
 						</li>
 						<li class="menu__item">
-							<a href="#" class="menu__link">Contacts</a>
+							<a href="#contacts" class="menu__link">Contacts</a>
 						</li>
 					</ul>
 				</nav>
 			</div>
 		</header>
+		<div class="mobile-navigation">
+			<label for="toggler-id">
+				<svg class="mobile-navigation-burger">
+					<use href="./assets/sprites.svg#burger"></use>
+				</svg>
+			</label>
+
+			<input
+				type="checkbox"
+				id="toggler-id"
+				class="mobile-navigation-toggler"
+			/>
+
+			<nav class="mobile-navigation-menu">
+				<ul class="mobile-navigation-list">
+					<li>
+						<a href="#home" class="mobile-navigation-link">Home</a>
+					</li>
+					<li>
+						<a href="#about" class="mobile-navigation-link">About</a>
+					</li>
+					<li>
+						<a href="#history" class="mobile-navigation-link">History</a>
+					</li>
+					<li>
+						<a href="#portfolio" class="mobile-navigation-link">Portfolio</a>
+					</li>
+					<li>
+						<a href="#contacts" class="mobile-navigation-link">Contacts</a>
+					</li>
+				</ul>
+
+				<label for="toggler-id" class="mobile-navigation-close">
+					<svg class="mobile-navigation-cross">
+						<use href="./assets/sprites.svg#cross"></use>
+					</svg>
+				</label>
+			</nav>
+		</div>
 		<main class="content">
-			<section class="home">
+			<section class="home" id="home">
 				<div class="container">
 					<div class="home__inner">
 						<h1 class="home__title">Ivan Constantinovich Aivazovski</h1>
@@ -51,7 +90,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="about">
+			<section class="about" id="about">
 				<div class="container">
 					<div class="about__inner">
 						<h2 class="about__title">About</h2>
@@ -85,7 +124,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="history">
+			<section class="history" id="history">
 				<div class="container">
 					<div class="history__inner">
 						<h2 class="history__title">History</h2>
@@ -106,7 +145,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="portfolio">
+			<section class="portfolio" id="portfolio">
 				<div class="container">
 					<div class="portfolio__inner">
 						<h2 class="portfolio__title">Portfolio</h2>
@@ -155,7 +194,7 @@
 				</div>
 			</section>
 		</main>
-		<footer class="contacts">
+		<footer class="contacts" id="contacts">
 			<div class="container">
 				<div class="contacts__inner">
 					<h2 class="contacts__title">Contacts</h2>
