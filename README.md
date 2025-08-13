@@ -11,6 +11,7 @@ Landing page about russian marine painter of Armenian origin, collector, philant
 
 - Semantic HTML (HTML5)
 - Responsive Web Design (CSS, Flex, Media Queries)
-- Optimized images (WebP)
 - BEM Metodology
+- Optimized images (WebP)
+- Using SVG sprites
 - Accessibility (a11y)
